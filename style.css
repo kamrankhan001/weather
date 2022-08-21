@@ -1,0 +1,61 @@
+#card{
+    width: 400px;
+    background-color: rgb(40, 255, 40);
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(132, 240, 128);
+    margin-top: 15px;
+    padding: 10px 10px;
+    color: white;
+}
+
+input{
+    width: 70%;
+    border: none;
+    height: 11px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+input:focus{
+    outline: none;
+}
+
+#weather{
+    margin: 10px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.flex{
+    display: flex;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.date{
+    display: inline;
+    background-color: white;
+    color: tomato;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+button{
+    background-color: rgb(255, 97, 97);
+    outline: none;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+td, th{
+    padding: 5px;
+    text-align: center;
+}
